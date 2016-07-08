@@ -45,7 +45,7 @@ class RestClient {
     int del(const char*, const char*, String*);
 
   private:
-    EthernetClient client;
+    WiFiEspClient client;
     int readResponse(String*);
     void write(const char*);
     const char* host;

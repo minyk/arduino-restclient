@@ -1,0 +1,29 @@
+#######################################
+# Syntax Coloring Map For arduino-restclient
+#######################################
+
+#######################################
+# Library (KEYWORD3)
+#######################################
+
+RestClient KEYWORD3
+
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+dhcp	KEYWORD2
+begin	KEYWORD2
+request	KEYWORD2
+setHeader	KEYWORD2
+setContentType	KEYWORD2
+get	KEYWORD2
+post	KEYWORD2
+del	KEYWORD2
+
