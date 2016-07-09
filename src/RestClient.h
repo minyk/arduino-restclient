@@ -1,16 +1,12 @@
 #include <Arduino.h>
 #include <SPI.h>
-#include <Ethernet.h>
+#include <WiFiEsp.h>
 
 class RestClient {
 
   public:
     RestClient(const char* host);
     RestClient(const char* _host, int _port);
-
-    //Client Setup
-    void dhcp();
-    int begin(byte*);
 
     //Generic HTTP Request
     int request(const char* method, const char* path,
